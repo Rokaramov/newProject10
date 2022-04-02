@@ -42,10 +42,6 @@ public class subversion  {
 	asu.setBounds(286,40,100,30);
 	main_panel.add(asu);
 	
-	JButton mar = new JButton("09");	
-	mar.setBounds(320, 200, 150, 40);
-	main_panel.add(mar);
-	
 	JButton button_info = new JButton("Информация");
     button_info.setBounds(20,200,150,40);
     button_info.setForeground(Color.WHITE);
