@@ -13,7 +13,7 @@ public class Info {
 		
         final JFrame j2 = new JFrame("");    
         j2.setTitle("Информация");     
-        j2.setBounds(600,200,310,210);
+        j2.setBounds(600,200,420,210);
         j2.setResizable(false); 
         
         panell.setBackground(Color.WHITE);
@@ -21,7 +21,7 @@ public class Info {
         JTextArea text = new JTextArea(txt);
         text.setEditable(false);
         JButton button = new JButton("Назад");
-        text.setBounds(10,0,290,80);
+        text.setBounds(10,0,420,80);
         text.setEditable(false);
         button.setBounds(100,135,100,30);
         button.setBackground(Color.GRAY);
